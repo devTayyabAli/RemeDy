@@ -1,0 +1,59 @@
+.css-953pxc-MuiInputBase-root-MuiInput-root::before {
+    border-bottom: 1px solid #fff !important;
+}
+
+.css-953pxc-MuiInputBase-root-MuiInput-root::after {
+    border-bottom: 2px solid #fff !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    color: #fff !important;
+}
+
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+    color: #fff !important;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+    color: #fff !important;
+}
+
+
+
+.imgandtitle h2 {
+    color: #fff;
+}
+
+.css-1fwnb9c .MuiTextField-root {
+    margin: 8px;
+    width: 100% !important;
+
+}
+
+.css-1eed5fa-MuiInputBase-root-MuiInput-root::before {
+    border-bottom: 1px solid #fff !important;
+
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+    color: #fff !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    /* padding: 10px 5px !important; */
+}
+
+label+.css-1eed5fa-MuiInputBase-root-MuiInput-root {
+    /* padding: 1px 5px !important; */
+    margin-top: 30px !important;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+    font-size: 22px !important;
+    /* top: 18px !important; */
+}
+.linkstyle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

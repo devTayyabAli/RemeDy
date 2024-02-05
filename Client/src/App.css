@@ -1,0 +1,718 @@
+h1 {
+  color: #165a72;
+  margin: 50px auto;
+  font-size: 40px;
+}
+
+input {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.menu1 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #165a72;
+}
+
+.MenuItem:focus {
+  background-color: red !important;
+}
+
+.css-ewdv3l {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding: 5px 0px 0px 10px !important;
+}
+
+.css-12w9als {
+  font-size: 1.1rem !important;
+}
+
+.css-z5rm24 {
+  background-color: transparent !important;
+}
+
+.dgwUmc:hover {
+  background-color: transparent,  !important;
+  color: #0b2558 !important;
+  border-radius: 10px 0px 0px 10px !important;
+  font-weight: 600 !important;
+}
+
+.css-13d6pqj.ps-broken {
+  position: fixed;
+  height: 100%;
+  top: 0px;
+  z-index: 100;
+  left: -349px !important;
+}
+
+.css-13d6pqj {
+  position: relative;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #efefef;
+  -webkit-transition: width, left, right, 300ms;
+  transition: width, left, right, 300ms;
+  width: 320px !important;
+  min-width: 320px !important;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  margin: 0.5rem 0rem 0rem 0.5rem;
+
+}
+
+.HeaderMain {
+  /* padding: 25px; */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.TableMain {
+  margin-top: 15px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.countryTit {
+  font-family: "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  /* margin-left: 35px; */
+  margin-bottom: 0;
+}
+
+.chart-pie {
+  overflow: hidden;
+  zoom: 122%;
+  position: relative;
+  left: -6px;
+  top: -86px;
+}
+
+.TableMain tbody td {
+  border-bottom-width: 0;
+}
+
+.TableMain thead tr th {
+  border-style: none;
+  border-bottom-width: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "sans-serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px !important;
+  line-height: 18px;
+  color: #000;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.TableMain thead tr th:first-child,
+.TableMain tbody tr td:first-child {
+  padding-left: 25px;
+}
+
+.TableMain thead tr {
+  background: #EFF3FD !important;
+}
+
+.TableMain tbody tr {
+  text-align: center;
+  font-family: "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.TableMain tbody td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.TableMain table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.TableMain td,
+.TableMain th {
+  border: none;
+  background-color: transparent;
+}
+
+.TableMain .selectPagiMAin {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.TableMain .selectPagiMAin .Rowsperpage {
+  font-family: "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.TableMain .selectPagiMAin select {
+  background: transparent;
+  border: none;
+  font-family: "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  width: 57px;
+}
+
+.TableMain .selectPagiMAin select option {
+  background: transparent;
+  border: none;
+  font-family: "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
+}
+
+.TableMain .selectPagiMAin select:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.TableMain ul.pagination {
+  margin-left: 10px;
+}
+
+.TableMain ul.pagination li a {
+  border-radius: 50%;
+  margin: 0 7px;
+}
+
+.TableMain ul.pagination .page-item:first-child .page-link {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+
+.TableMain ul.pagination .page-item:last-child .page-link {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+
+.TableMain thead tr th:first-child,
+.TableMain tbody tr td:first-child {
+  padding-left: 27px;
+  width: 100px !important;
+}
+
+
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+
+  border-color: #869497 !important;
+  border-radius: 10px !important;
+}
+
+.css-14lo706 {
+
+  font-size: 12px !important;
+  color: #1B1B1B !important;
+
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  color: #1B1B1B !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  /* height: 1.3rem !important; */
+
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  /* height: 2.5rem !important; */
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  border-bottom: 1px solid #0b2558 !important;
+  color: #0b2558 !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #fff !important;
+  background-color: #0b2558 !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  font-size: 16px !important;
+}
+
+.css-1q2h7u5.Mui-selected {
+  color: #fff;
+  background-color: #0b2558;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  min-width: 10% !important;
+}
+
+.css-1q2h7u5.Mui-selected {
+  color: #fff !important;
+}
+
+.css-1bn53lx.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #869497 !important;
+  border-radius: 10px !important;
+  border-width: 1px !important;
+}
+
+
+.css-o4b71y-MuiAccordionSummary-content {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.css-jzppkm-MuiPaper-root-MuiAppBar-root {
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: 0px 0px 0px 0px rgb(255, 255, 255), 0px 0px 0px 0px rgb(255, 255, 255), 0px 0px 0px 0px rgba(255, 255, 255, 0.982) !important;
+  background-color: #eff3fd !important;
+  color: #fff;
+}
+
+.css-1g5hvon {
+  padding: 0px !important;
+}
+
+.css-19kzrtu {
+  padding: 0px !important;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 15px 16px 16px !important;
+  background-color: #fff !important;
+}
+
+.react-bootstrap-table table {
+  table-layout: auto !important;
+}
+
+.css-tnuu4j {
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: 0px 0px 0px 0px rgb(255, 255, 255), 0px 0px 0px 0px rgb(255, 255, 255), 0px 0px 0px 0px rgba(255, 255, 255, 0.982) !important;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: fixed;
+  z-index: 1100;
+  top: 0px;
+  left: auto;
+  right: 0px;
+  background-color: #eff3fd !important;
+
+  color: rgb(255, 255, 255);
+}
+
+.css-1bp1ao6.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #869497 !important;
+  border-width: 1px !important;
+}
+
+.css-1ald77x.Mui-focused {
+  color: #869497 !important;
+}
+
+.css-c4sutr {
+  background-color: #fff !important;
+  padding-top: 1rem !important;
+}
+
+.css-wf16b5 {
+  background-color: #0b2558 !important;
+  color: #fff !important;
+}
+
+.css-1l8j5k8 {
+  background-color: #0b2558 !important;
+  color: #fff !important;
+}
+
+.css-1f8bwsm {
+  min-width: 56px;
+  color: #fff !important;
+  flex-shrink: 0;
+  display: inline-flex;
+}
+
+.css-c4sutr {
+  background-color: transparent !important;
+  padding-top: 0rem !important;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 10000000s ease-in-out 0s !important;
+}
+
+input:-webkit-autofill {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.css-mnn31 {
+  padding: 20px 0px 5px !important;
+}
+
+.css-z5rm24 {
+  background-color: transparent !important;
+}
+
+.css-bz5ng3-MuiInputBase-root-MuiInput-root::before {
+  border-bottom: 1px solid #c2c2c2 !important;
+}
+
+.css-bz5ng3-MuiInputBase-root-MuiInput-root::after {
+  border-bottom: 1px solid #c2c2c2 !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #869497 !important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #1b1b1b !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.css-1rqoqxy::before {
+  border-bottom: 1px solid #fff !important;
+}
+
+.css-1rqoqxy::after {
+  border-bottom: 1px solid #fff !important;
+}
+
+.css-1v4ccyo.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #869497 !important;
+  border-radius: 10px;
+}
+
+.css-1ald77x.Mui-focused {
+  color: #1b1b1b !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.css-z3c6am-MuiFormControl-root-MuiTextField-root {
+  width: 12% !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.css-igs3ac {
+  border-color: #869497 !important;
+  border-radius: 10px !important;
+  border-width: 1px !important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  color: #1b1b1b !important;
+  font-weight: 600 !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 9px !important;
+}
+
+.css-165mck1 {
+  width: 32% !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  min-width: 12% !important;
+  font-weight: 400 !important;
+  text-transform: capitalize !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: #869497 !important;
+  border-radius: 10px !important;
+  border-width: 1px !important;
+}
+
+.css-1ufn0jl.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #869497 !important;
+  border-radius: 10px !important;
+  border-width: 1px !important;
+}
+
+.css-1a6giau {
+  color: #869497 !important;
+}
+
+.css-18m8r0v {
+  color: #869497 !important;
+}
+
+.css-fvipm8.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #869497 !important;
+}
+
+.css-1pnmrwp-MuiTypography-root {
+  color: #1b1b1b !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  border-bottom: 1px solid #0b2558 !important;
+  color: #0b2558 !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #fff !important;
+  background-color: #0b2558 !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  font-size: 16px !important;
+}
+
+.css-1q2h7u5.Mui-selected {
+  color: #fff;
+  background-color: #0b2558;
+  min-width: 10% !important;
+}
+
+.css-1q2h7u5.Mui-selected {
+  color: #fff !important;
+}
+
+.css-1bn53lx.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #869497 !important;
+  border-radius: 10px !important;
+  border-width: 1px !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  color: #869497 !important;
+}
+
+.css-o4b71y-MuiAccordionSummary-content {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 25px 16px 16px !important;
+  background: #fff !important;
+}
+
+.css-u7qq7e {
+  padding: 25px 16px 16px !important;
+  background: #fff !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: #869497 !important;
+}
+
+.css-18m8r0v {
+  color: #1b1b1b !important;
+}
+
+.css-1x5jdmq {
+  color: #1b1b1b !important;
+}
+
+.css-1q2h7u5 {
+  background-color: #0b2558;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  min-width: 10% !important;
+  border-bottom: 1px solid #0b2558 !important;
+  color: #0b2558 !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize !important;
+  white-space: nowrap !important;
+}
+
+
+.css-1ald77x.Mui-error {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+
+/*table Classes*/
+
+.table_main {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table>:not(caption)>*>* {
+  background-color: transparent !important;
+}
+
+/* Styles to ensure the table is scrollable on smaller screens */
+.table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Adjustments for mobile screens */
+@media screen and (max-width: 600px) {
+
+  .table_main th,
+  .table_main td {
+    padding: 0.3rem;
+    /* Reduced padding */
+    font-size: 0.8rem;
+    /* Reduced font size */
+    white-space: nowrap !important;
+  }
+
+  /* Optional: Hide less important columns on mobile */
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .css-k008qs {
+    display: block !important;
+  }
+}
+
+.css-mqt2s5 {
+  color: #fff !important;
+}
+
+.TableMain tbody td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  white-space: nowrap !important;
+}
+
+.css-348fk2.Mui-focused {
+  color: #fff !important;
+}
+
+.css-1rrfrxi::before {
+  border-bottom: 1px solid #fff !important;
+}
+
+.css-1rrfrxi::after {
+  border-bottom: 1px solid #fff !important;
+}
+
+.css-1rrfrxi {
+  color: #fff !important;
+}
+
+/* Phone_number style---------------- */
+
+.css-348fk2 {
+  color: #fff !important;
+}
+
+.css-1636szt {
+
+  color: #fff !important;
+}
+
+.css-jcincl::after {
+  border-bottom: 2px solid #fff !important;
+}
+
+.css-jcincl::before {
+  border-bottom: 1px solid #fff !important;
+}
+
+.css-jcincl {
+  color: #fff !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  padding: 20px 0 5px !important;
+}
+
+.css-1eed5fa-MuiInputBase-root-MuiInput-root::after {
+  border-bottom: 2px solid #fff !important;
+}
+
+.css-1eed5fa-MuiInputBase-root-MuiInput-root::before {
+  border-bottom: 2px solid #fff !important;
+}
+
+@media screen and (max-width:600px) {
+  .css-1vp1jph {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+    padding: 5px 25px;
+  }
+}
+
+.css-ttwr4n {
+
+  background-color: transparent !important;
+}
