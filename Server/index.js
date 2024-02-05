@@ -7,9 +7,6 @@ require("dotenv").config();
 
 app.use(express.json());
 
-
-
-const followRoutes = require("./routes/followRoutes");
 const userRoutes = require("./routes/userRoutes");
 const dbConnection = require("./connection/db");
 app.use(bodyParser.urlencoded({ extended: true }));
