@@ -16,7 +16,7 @@ import {
   parseCountry,
   usePhoneInput,
 } from "react-international-phone";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -30,6 +30,8 @@ export default function SignUp() {
     password: "",
     showPassword: false,
   });
+  const Navigate = useNavigate();
+
   const [spinner, setSpinner] = useState(false);
   const { phone, handlePhoneValueChange, inputRef, country, setCountry } =
     usePhoneInput({
@@ -84,6 +86,7 @@ export default function SignUp() {
       } else {
         toast.success(response.data.success_msg);
         setSpinner(false);
+        Navigate('/')
       }
     } catch (error) {
       console.log("Error While User SignUp", error);
@@ -250,6 +253,7 @@ export default function SignUp() {
                   id="outlined-required"
                   label="Password"
                   name="password"
+                  type="password"
                   variant="standard"
                   placeholder="*******"
                   focused
