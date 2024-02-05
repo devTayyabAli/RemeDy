@@ -34,8 +34,8 @@ function ResponsiveDrawer(props) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [isClosing, setIsClosing] = React.useState(false);
   const [isCloppse, setisCloppse] = React.useState(false);
-  const userName = useSelector((state) => state.Auth.userName);
-  const jwt = useSelector((state) => state.Auth.jwt_token);
+  const userName = useSelector((state) => state?.Auth?.userName);
+  // const jwt = useSelector((state) => state.Auth.jwt_token);
   const loaction = useLocation();
   const dispatch = useDispatch();
   const handleDrawerClose = () => {
@@ -203,7 +203,19 @@ function ResponsiveDrawer(props) {
                   </>
                 ) : (
                   <>
-                    <Link to={text?.path}>
+                    <Link to={text?.path}
+                     onClick={() =>
+                      text?.title == "Logout"
+                        ? dispatch(
+                            UpdateAuth({
+                              isAuth: false,
+                              userName: "",
+                              jwt_token: "",
+                            })
+                          )
+                        : setisCloppse(false)
+                    }
+                    >
                       <ListItem
                         key={text}
                         disablePadding
